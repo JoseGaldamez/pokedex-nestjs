@@ -31,3 +31,13 @@ $ docker-compose up -d
 
 - NestJS
 - MongoDB
+
+---
+
+# Fill database
+
+Call the following endpoint to fill the database with the pokemons from the pokeapi
+
+```
+http://localhost:3000/api/v2/seed
+```
